@@ -1,11 +1,16 @@
 <template lang='html'>
-  <h1>Inquiry</h1>
+  <inquiry_index />
 </template>
 
 <script lang='js'>
 
+import inquiry_index from '../components/inquiry/index'
+
 export default {
   name: 'inquiry',
+  components: {
+    inquiry_index
+  }
 }
 </script>
 
